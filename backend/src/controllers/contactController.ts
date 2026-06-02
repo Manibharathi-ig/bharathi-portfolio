@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import prisma from "../prisma/prisma";
 import { contactSchema } from "../validators/contactValidator";
 import bcrypt from "bcrypt";
-import transporter from "../config/mail";
+// import transporter from "../config/mail";
 
 export const createContact = async (
   req: Request,
