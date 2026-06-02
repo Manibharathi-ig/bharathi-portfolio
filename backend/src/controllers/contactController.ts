@@ -35,22 +35,26 @@ if (!validation.success) {
       },
     });
 
-//     await transporter.sendMail({
-//   from: process.env.EMAIL_USER,
-//   to: process.env.EMAIL_USER,
+    console.log("Before mail");
 
-//   subject: `New Portfolio Contact - ${name}`,
+    await transporter.sendMail({
+  from: process.env.EMAIL_USER,
+  to: process.env.EMAIL_USER,
 
-//   html: `
-//     <h2>New Contact Received</h2>
+  subject: `New Portfolio Contact - ${name}`,
 
-//     <p><strong>Name:</strong> ${name}</p>
-//     <p><strong>Email:</strong> ${email}</p>
-//     <p><strong>Opportunity:</strong> ${opportunityType}</p>
-//     <p><strong>Project:</strong> ${projectType}</p>
-//     <p><strong>Message:</strong> ${message}</p>
-//   `,
-// });
+  html: `
+    <h2>New Contact Received</h2>
+
+    <p><strong>Name:</strong> ${name}</p>
+    <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Opportunity:</strong> ${opportunityType}</p>
+    <p><strong>Project:</strong> ${projectType}</p>
+    <p><strong>Message:</strong> ${message}</p>
+  `,
+});
+
+console.log("After mail");
 
     res.status(201).json({
       success: true,
