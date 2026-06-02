@@ -5,7 +5,6 @@ import {
   Layout,
   Database,
   Cloud,
-  Cpu,
   MonitorSmartphone,
   Bot,
   Lightbulb,

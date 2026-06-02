@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { SectionHeading } from "../UI/SectionHeading";
-import { ExternalLink, Github, Shield, Code2, Globe, Bot } from "lucide-react";
+import { ExternalLink, Github, Code2, Globe, Bot } from "lucide-react";
 const projects = [
   {
     title: "Professional Portfolio Website",
