@@ -22,7 +22,7 @@ const Dashboard = () => {
 
   const fetchContacts = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/contact");
+      const response = await axios.get("https://bharathi-portfolio-api.onrender.com/api/contact");
 
       setContacts(response.data.data);
     } catch (error) {
@@ -38,7 +38,7 @@ const Dashboard = () => {
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(`http://localhost:5000/api/contact/${id}`);
+      await axios.delete(`https://bharathi-portfolio-api.onrender.com/api/contact/${id}`);
 
       fetchContacts();
     } catch (error) {
@@ -52,7 +52,7 @@ const Dashboard = () => {
   };
   //   const updateStatus = async (id: number, status: string) => {
   //     try {
-  //       await axios.patch(`http://localhost:5000/api/contact/${id}/status`, {
+  //       await axios.patch(`https://bharathi-portfolio-api.onrender.com/api/contact/${id}/status`, {
   //         status,
   //       });
 
@@ -64,7 +64,7 @@ const Dashboard = () => {
 
   const handleStatusChange = async (id: number, status: string) => {
     try {
-      await axios.patch(`http://localhost:5000/api/contact/${id}/status`, {
+      await axios.patch(`https://bharathi-portfolio-api.onrender.com/api/contact/${id}/status`, {
         status,
       });
 

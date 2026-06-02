@@ -29,7 +29,8 @@ export const Contact: React.FC = () => {
     try {
       setIsSubmitting(true);
 
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("https://bharathi-portfolio-api.onrender.com/api/contact", {
+      // const response = await fetch("http://localhost:5000/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
