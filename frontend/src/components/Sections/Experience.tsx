@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { SectionHeading } from "../UI/SectionHeading";
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, Brain } from "lucide-react";
 const timeline = [
   {
     role: "Web Developer Intern",
@@ -9,7 +9,7 @@ const timeline = [
     period: "Nov 2024 - May 2025",
     description:
       "Worked on real-world client websites using WordPress and WooCommerce. Handled theme customization, responsive design, hosting setup, DNS management, website migrations, and client requirements.",
-    icon: <Briefcase className="w-5 h-5" />,
+    icon: <GraduationCap className="w-5 h-5" />,
   },
 
   {
@@ -27,7 +27,7 @@ const timeline = [
     period: "2026 - Present",
     description:
       "Building modern full stack applications using React, Next.js, Express, PostgreSQL, and AI integrations. Currently expanding expertise through Python, Data Science, Machine Learning, and AI-powered software development.",
-    icon: <GraduationCap className="w-5 h-5" />,
+    icon: <Brain className="w-5 h-5" />,
   },
 ];
 export const Experience: React.FC = () => {

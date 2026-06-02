@@ -104,14 +104,14 @@ export const Hero: React.FC = () => {
 
             <div className="flex items-center gap-4 ml-0 md:ml-4 mt-4 md:mt-0">
               <a
-                href="#"
+                href="https://github.com/Manibharathi-ig"
                 className="p-4 rounded-full glass-card glass-card-hover text-zinc-400 hover:text-white transition-colors"
                 aria-label="GitHub"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mani-bharathi2003?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="p-4 rounded-full glass-card glass-card-hover text-zinc-400 hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >

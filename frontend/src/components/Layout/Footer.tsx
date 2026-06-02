@@ -16,14 +16,14 @@ export const Footer: React.FC = () => {
         </p>
 
         <div className="flex items-center gap-6 text-sm font-medium text-zinc-400">
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="https://github.com/Manibharathi-ig" className="hover:text-white transition-colors">
             GitHub
           </a>
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/mani-bharathi2003?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="hover:text-white transition-colors">
             LinkedIn
           </a>
-          <a href="#" className="hover:text-white transition-colors">
-            Twitter
+          <a href="https://www.instagram.com/_____solitude_____?igsh=YXFneXcwaDBhbnhk" className="hover:text-white transition-colors">
+            Instagram
           </a>
         </div>
       </div>

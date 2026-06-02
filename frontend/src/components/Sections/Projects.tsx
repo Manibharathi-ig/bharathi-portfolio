@@ -19,18 +19,18 @@ const projects = [
     icon: <Code2 className="w-6 h-6" />,
     color: "from-cyan-500/20",
     link: "#",
-    github: "#",
+    github: "https://github.com/Manibharathi-ig/bharathi-portfolio",
   },
   {
     title: "WordPress Business Website",
     category: "Client / Freelance Website",
     description:
       "Developed and customized a business website using WordPress, including theme customization, responsive design, hosting configuration, and deployment.",
-    tech: ["Wordpress", "HTML", "CSS", "Elementor"],
+    tech: ["Wordpress", "HTML", "CSS", "Elementor" , "Responsive Design" , "Hosting" , "DNS"],
     icon: <Globe className="w-6 h-6" />,
     color: "from-purple-500/20",
-    link: "#",
-    github: "#",
+    link: "https://www.sculptacademy.in/",
+    // github: "#",
   },
   {
     title: "Coming Soon: AI Project Requirement Analyzer",
