@@ -35,22 +35,22 @@ if (!validation.success) {
       },
     });
 
-    await transporter.sendMail({
-  from: process.env.EMAIL_USER,
-  to: process.env.EMAIL_USER,
+//     await transporter.sendMail({
+//   from: process.env.EMAIL_USER,
+//   to: process.env.EMAIL_USER,
 
-  subject: `New Portfolio Contact - ${name}`,
+//   subject: `New Portfolio Contact - ${name}`,
 
-  html: `
-    <h2>New Contact Received</h2>
+//   html: `
+//     <h2>New Contact Received</h2>
 
-    <p><strong>Name:</strong> ${name}</p>
-    <p><strong>Email:</strong> ${email}</p>
-    <p><strong>Opportunity:</strong> ${opportunityType}</p>
-    <p><strong>Project:</strong> ${projectType}</p>
-    <p><strong>Message:</strong> ${message}</p>
-  `,
-});
+//     <p><strong>Name:</strong> ${name}</p>
+//     <p><strong>Email:</strong> ${email}</p>
+//     <p><strong>Opportunity:</strong> ${opportunityType}</p>
+//     <p><strong>Project:</strong> ${projectType}</p>
+//     <p><strong>Message:</strong> ${message}</p>
+//   `,
+// });
 
     res.status(201).json({
       success: true,
