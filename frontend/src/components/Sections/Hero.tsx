@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { ArrowRight, Download, Github , Linkedin} from 'lucide-react'
+import React from "react";
+import { motion } from "framer-motion";
+import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
 export const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden z-10">
@@ -63,7 +63,10 @@ export const Hero: React.FC = () => {
             }}
             className="text-lg md:text-xl text-zinc-400 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
-           Full Stack Developer with 1+ year of professional experience building modern web applications and solving real-world business problems. Passionate about AI-powered solutions, data-driven applications, and continuously learning emerging technologies.{' '}
+            Full Stack Developer with 1+ year of professional experience
+            building modern web applications and solving real-world business
+            problems. Passionate about AI-powered solutions, data-driven
+            applications, and continuously learning emerging technologies.{" "}
             <span className="text-white font-medium">
               AI & Data-Driven Applications.
             </span>
@@ -90,7 +93,7 @@ export const Hero: React.FC = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <span className="relative flex items-center gap-2 group-hover:text-white transition-colors">
-                View Projects{' '}
+                View Projects{" "}
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
             </a>
@@ -118,8 +121,9 @@ export const Hero: React.FC = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
-                className="p-4 rounded-full glass-card glass-card-hover text-zinc-400 hover:text-white transition-colors"
+                href="/ManiBharathi_CV.pdf"
+                download
+                className="p-4 rounded-full glass-card glass-card-hover text-zinc-400 hover:text-white transition-all duration-300"
                 aria-label="Download Resume"
               >
                 <Download className="w-5 h-5" />
@@ -149,5 +153,5 @@ export const Hero: React.FC = () => {
         <div className="w-[1px] h-12 bg-gradient-to-b from-zinc-500 to-transparent" />
       </motion.div>
     </section>
-  )
-}
+  );
+};
